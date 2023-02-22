@@ -1,0 +1,201 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+   filter: opacity(50%);
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+#logo a {
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+ul {
+    position: relative;
+    left: 23rem;
+    font-size: small;
+    list-style: none;
+}
+
+#bg_text{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: small;
+    top: 33%;
+}
+
+p {
+    margin-bottom: 0%;
+}
+
+#bg_img {
+    filter: opacity(75%);
+}
+
+.button {
+    padding: 2rem;
+    text-align: center;
+}
+
+.button a {
+    font-size: small;
+    width: 7rem;
+    border: solid 0.5px rgb(130, 192, 166);
+    color: grey;
+}
+
+.button a:hover {
+    border: solid 0.5px rgb(130, 192, 166);
+    color: rgb(130, 192, 166);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.VG{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cont1{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 5rem 5rem 5rem;
+}
+.cont2{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 10rem 5rem 6rem;
+}
+.cont3{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 5rem 5rem 10rem;
+}
+.subcont1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2rem 0 2rem;
+    width: 70%;
+}
+.subcont2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2rem 0 2rem;
+    width: 70%;
+    padding-right: 3rem;
+}
+.subcont3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2rem 0 2rem;
+}
+.subcont4{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2rem 0 2rem;
+    width: 70%;
+    padding-right: 3rem;
+}
+.textspecial{
+    display:flex ;
+    text-align: end;
+}
+.TC{
+    color: #4BD1A0;
+    font-size: 30px;
+}
+.TC2{
+    color: #B6AC95;
+    font-size: 30px;
+}
+.TT{
+    font-size: 12px;
+}
+.Tt{
+    font-size: 8px;
+    text-align: center;
+}
+.CS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem 0 0;
+}
+
+section .row{
+    width: 100%;
+}
+
+section .col{
+    width: 20%; text-align:center; margin-left: 2rem; margin-right: 2rem;
+}
+
+.col-10{
+    width: 80%;
+}
+
+.col-10 .row{
+    margin-bottom: 3rem; 
+    font-size: 10px;
+}
+
+.col-10 .card{
+    width:18rem; 
+    height: 9.5rem;
+     margin-right: 1rem;
+     margin-bottom: 1rem;
+     display: flex; 
+     justify-content: center;
+}
+
+.row .row-cols-1{
+    margin-bottom: 2rem;
+}
+
+#centrar{
+    width:18rem; 
+    height: 9.5rem;
+}
+
+footer .row{
+    background-color: rgb(103, 172, 172); 
+    text-align: center; 
+    font-size: 13px;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+    color: aliceblue;
+}
+footer .row h6{
+    margin-bottom: 0.5rem;
+}
+
+footer .row p{
+    margin-top: 0.5rem;
+    margin-bottom: -0.5rem;
+}
+
+footer .icons svg{
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.icons a{
+color: aliceblue;
+}
